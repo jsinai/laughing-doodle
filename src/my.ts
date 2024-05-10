@@ -1,1 +1,2 @@
 const a:string = 2;
+const b:string = 3
