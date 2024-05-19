@@ -25,8 +25,8 @@ jobs:
         uses: tj-actions/changed-files@v44
 
         with:
-          # Avoid using single or double quotes for multiline patterns
           files: |
+
             js:
              **.js
             ts:
