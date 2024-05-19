@@ -1,3 +1,3 @@
 var a = 2;
-var b = 3;
-var c = 6;
+const b = 3;
+const c = 6;
