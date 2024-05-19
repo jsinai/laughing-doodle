@@ -1,2 +1,2 @@
-var d = 2;
+var d:string = 2;
 var e:string = 2;
