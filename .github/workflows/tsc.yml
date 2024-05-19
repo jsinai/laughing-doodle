@@ -42,4 +42,5 @@ jobs:
           for file in ${ALL_CHANGED_FILES}; do
             echo "$file was changed"
             npx tsc --noEmit $file
+            npx eslint $file
           done
