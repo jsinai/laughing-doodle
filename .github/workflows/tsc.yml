@@ -27,10 +27,10 @@ jobs:
         with:
           files_yaml: |
             js:
-              **.js
+              - '**.js'
             ts:
-              **.ts
-              **.tsx
+              - '**.ts'
+              - '**.tsx'
 
       - name: For all changed js files
         if: steps.changed-js-ts-files.outputs.js_any_changed == 'true'
