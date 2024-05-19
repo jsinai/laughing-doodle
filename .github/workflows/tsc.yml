@@ -3,6 +3,8 @@ name: tsc
 
 on:
   pull_request:
+    branches:
+      - '**'
 
 jobs:
   changed_files:
